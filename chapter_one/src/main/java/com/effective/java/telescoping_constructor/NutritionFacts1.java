@@ -42,12 +42,12 @@ public class NutritionFacts1 {
             carbohydrate = val;
             return this;
         }
-        
+
         public NutritionFacts1 build(){
             return new NutritionFacts1(this);
         }
     }
-    private NutritionFacts1(Builder builder){
+    public NutritionFacts1(Builder builder){
         servingSize = builder.servingSize;
         servings = builder.servings;
         calories = builder.calories;
