@@ -1,4 +1,4 @@
-//对称性equals
+package com.effective.java.equals;//对称性equals
 
 public class CaseInsensitiveString {
 
@@ -26,8 +26,8 @@ public class CaseInsensitiveString {
 
     //    @Override    //违反对称性
 //    public boolean equals(Object obj) {
-//        if(obj instanceof CaseInsensitiveString){
-//            return s.equalsIgnoreCase(((CaseInsensitiveString)obj).s);
+//        if(obj instanceof com.effective.java.equals.CaseInsensitiveString){
+//            return s.equalsIgnoreCase(((com.effective.java.equals.CaseInsensitiveString)obj).s);
 //        }
 //
 //        if(obj instanceof String){
