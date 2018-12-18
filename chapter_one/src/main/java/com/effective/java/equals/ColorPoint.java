@@ -17,7 +17,7 @@ public class ColorPoint extends Point {
         this.color = color;
     }
 
-//    @Override
+//    @Override //混合比较时不起作用
 //    public boolean equals(Object obj) {
 //        if(!(obj instanceof ColorPoint)){
 //            return false;
@@ -25,7 +25,7 @@ public class ColorPoint extends Point {
 //        return super.equals(obj) && ((ColorPoint) obj).color == color;
 //    }
 
-    @Override
+    @Override //可以混合比较，但是牺牲了传递性
     public boolean equals(Object obj) {
         if(!(obj instanceof Point)){
             return false;
