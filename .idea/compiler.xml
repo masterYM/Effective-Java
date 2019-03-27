@@ -8,11 +8,15 @@
         <outputRelativeToContentRoot value="true" />
         <module name="chapter_one" />
         <module name="chapter_two" />
+        <module name="java (1)" />
+        <module name="java (2)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="chapter_one" target="1.8" />
       <module name="chapter_two" target="1.8" />
+      <module name="java (1)" target="1.8" />
+      <module name="java (2)" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

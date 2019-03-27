@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/chapter_one/chapter_one.iml" filepath="$PROJECT_DIR$/chapter_one/chapter_one.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter_two/chapter_two.iml" filepath="$PROJECT_DIR$/chapter_two/chapter_two.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design/design.iml" filepath="$PROJECT_DIR$/design/design.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter_one/java (1).iml" filepath="$PROJECT_DIR$/chapter_one/java (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter_two/java (2).iml" filepath="$PROJECT_DIR$/chapter_two/java (2).iml" />
     </modules>
   </component>
 </project>
