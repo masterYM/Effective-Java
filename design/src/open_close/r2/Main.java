@@ -1,11 +1,10 @@
 package open_close.r2;
 
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
 /**
- * 给商品做个促销活动
+ * 给商品做个促销活动--单个商品
  */
 public class Main {
 
